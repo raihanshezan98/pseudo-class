@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo Class Lesson</title>
+    <style>
+        h1 {
+            color: green;
+        }
+
+        /* hover means mouse over */
+
+        h1:hover {
+            color: red;
+            background-color: aqua;
+        }
+
+        input:focus {
+            color: blue;
+            /* padding-left: 20px; */
+            /* padding: 20px; */
+            outline: 0;
+            border: 2px solid purple;
+        }
+
+        a:visited{
+            color: grey;
+        }
+
+        /* li:first-child{
+            color:red
+        } */
+
+        /* li:last-child{
+            color: blue;
+        } */
+
+        ul{
+            background-color: black;
+            height: 250px;
+            width: 500px;
+            color: white;
+        }
+
+        li:nth-child(2n+1) {
+            color: yellow;
+        }
+
+        p:nth-child(even) {
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>My heading</h1>
+    <input type="text" name="" id="">
+    <br>
+    <br>
+    <input type="text" name="" id="">
+    <br>
+    <br>
+    <input type="text" name="" id="">
+    <br>
+    <a href="https://www.spacex.com/">Space X</a>
+    <a href="https://www.blueorigin.com/">Blue Origin</a>
+
+    <ul>
+        <li>Alia</li>
+        <li>Balia</li>
+        <li>Dalia</li>
+        <li>Salia</li>
+        <li>Malia</li>
+        <li>Galia</li>
+        <li>Palia</li>
+    </ul>
+
+    <p>The first paragraph.</p>
+    <p>The second paragraph.</p>
+    <p>The third paragraph.</p>
+    <p>The fourth paragraph.</p>
+    <p>The fifth paragraph.</p>
+
+</body>
+</html>
